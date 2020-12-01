@@ -18,8 +18,8 @@ namespace Project_CP
 
                 Elevator elev = new Elevator(syncWriter);
                 List<Agent> agents = new List<Agent>() {
-                    new Agent(syncWriter,elev,"SEO",Agents.Confidential),
-                    new Agent(syncWriter, elev, "Manager", Agents.Confidential),
+                    new Agent(syncWriter,elev,"SEO",Agents.TopSecret),
+                    new Agent(syncWriter, elev, "Manager", Agents.Secret),
                     new Agent(syncWriter, elev, "Intern", Agents.Confidential)          
                     };
                 
